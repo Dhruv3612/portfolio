@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #111;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            overflow: hidden; /* Hide overflowing content */
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            display: block;
+            margin: 0 auto; /* Center the image */
+        }
+
+        .profile-info {
+            text-align: center; /* Center align profile info */
+        }
+
+        .profile-name {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .profile-title {
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: red; /* Heading color set to red */
+        }
+
+        .section-content {
+            margin-left: 20px;
+        }
+
+        .animated-text {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 20px;
+            animation: animateText 2s infinite alternate;
+        }
+
+        @keyframes animateText {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(10px);
+            }
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            text-align: center; /* Center align contact info */
+        }
+
+        .contact-info a {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .contact-info img {
+            width: 30px;
+            height: auto;
+            vertical-align: middle;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none; /* Remove underlines from links */
+        }
+
+        a:hover {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="profile-image" src="C:\Users\dell1\OneDrive\Desktop\project info\WhatsApp Image 2023-10-05 at 14.17.28_f722a8c6.jpg" alt="Profile Image">
+        <div class="profile-info">
+            <div class="profile-name">Dhruv Sharma</div>
+            <div class="profile-title">BE:- 2023</div>
+        </div>
+
+        <div class="animated-text">Web Developer</div>
+
+        <div class="section">
+            <div class="section-title">Basic Information</div>
+            <div class="section-content">
+                <p><strong>Email:</strong> dhruvsharam165@gmail.com</p>
+                <p><strong>Phone:</strong> 7876605889</p>
+                <p><strong>Location:</strong> UNA, Himachal Pradesh</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Skills</div>
+            <div class="section-content">
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="section-content">
+                <p><strong>Degree:</strong> Bachelor of Science in Computer Science</p>
+                <p><strong>University:</strong> Chitkara University</p>
+                <p><strong>Year:</strong> 2023-2027</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Contact</div>
+            <div class="section-content contact-info">
+                <p><strong>Phone:</strong> 7876605889</p>
+                <p><strong>Email:</strong> <a href="mailto:dhruvsharam165@gmail.com">dhruvsharam165@gmail.com</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dhruv-sharma-23828b292/">Your LinkedIn Profile</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/yourusername"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo"></a></p>
+                <p><strong>Address:</strong> UNA, Himachal Pradesh</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
